@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book shop</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a class="header-logo" href="#"><img src="/images/logo.svg"></a>
+            <div class="header-tools">
+                <p>0.00 &euro;</p>
+                <button class="header-tools__card">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M33.5333 9.08329V9.29996L31.0999 18.3C30.8124 19.3682 30.1786 20.3109 29.298 20.9804C28.4173 21.6499 27.3395 22.0085 26.2333 22H13.4833C12.2316 22.005 11.0235 21.5405 10.0978 20.698C9.17204 19.8556 8.59593 18.6966 8.48328 17.45L7.39995 5.18329C7.3624 4.76776 7.17037 4.38142 6.86178 4.10061C6.5532 3.81979 6.15051 3.66493 5.73328 3.66663H2.11662C1.67459 3.66663 1.25067 3.49103 0.938106 3.17847C0.625546 2.86591 0.449951 2.44199 0.449951 1.99996C0.449951 1.55793 0.625546 1.13401 0.938106 0.821449C1.25067 0.508888 1.67459 0.333293 2.11662 0.333293H5.73328C6.98496 0.328214 8.19302 0.792789 9.11878 1.63523C10.0445 2.47766 10.6206 3.63668 10.7333 4.88329V5.33329H30.2166C30.6917 5.32957 31.1622 5.42745 31.5964 5.62039C32.0305 5.81333 32.4185 6.09686 32.7341 6.45198C33.0498 6.8071 33.2859 7.22559 33.4266 7.67942C33.5673 8.13324 33.6094 8.61189 33.5499 9.08329H33.5333Z" fill="#F8FDFE"/>
+                    <path d="M12.1166 33.6667C14.4178 33.6667 16.2833 31.8012 16.2833 29.5C16.2833 27.1989 14.4178 25.3334 12.1166 25.3334C9.81543 25.3334 7.94995 27.1989 7.94995 29.5C7.94995 31.8012 9.81543 33.6667 12.1166 33.6667Z" fill="#F8FDFE"/>
+                    <path d="M25.45 33.6667C27.7512 33.6667 29.6167 31.8012 29.6167 29.5C29.6167 27.1989 27.7512 25.3334 25.45 25.3334C23.1488 25.3334 21.2833 27.1989 21.2833 29.5C21.2833 31.8012 23.1488 33.6667 25.45 33.6667Z" fill="#F8FDFE"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <aside class="header-aside">
+            <p>Shop by category</p>
+            <nav class="header-aside-btn">
+                <ul>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Sign in/Join</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+    </header>
+    
+    <main>
+       <div class="book-list-block">
+            <div class="book-list__title">Bestsellers – our most popular items, updated daily</div>
+            <div class="book-list__items">
+                <!-- 1 line -->
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="./images/final_offer.png">
+                        </div>
+                        <div class="img--label">
+                            <span class="img__hit">Hit</span>
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">Final Offer</h3>
+                        <p class="item__info-autor">Lauren Asher</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">16,05 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--add-to">Add to basket</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="/images/It Ends With Us_ The most.png">
+                        </div>
+                        <div class="img--label">
+                            <span class="img__new">New</span>
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">It Ends With Us: The most </h3>
+                        <p class="item__info-autor">Colleen Hoover</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">10,52 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--end-up">End up</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="/images/Atomic Habits.png">
+                        </div>
+                        <div class="img--label">
+                            <span class="img__hit">Hit</span> 
+                            <span class="img__sale">10% off</span>
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">Anatomic Hobits</h3>
+                        <p class="item__info-autor">James Clear</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">19,75 €</p>
+                            <p class="cost--was">22,00 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--add-to">Add to basket</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="/images/The Creative Act.png">
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">The Creative Act</h3>
+                        <p class="item__info-autor">Rick Rubin</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">29,45 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--add-to">Add to basket</button>
+                    </div>
+                </div>
+                <!-- 2 line -->
+
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="/images/Spare.png">
+                        </div>
+                        <div class="img--label">
+                            <span class="img__hit">Hit</span>
+                            <span class="img__sale">16% off</span>
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">Spare</h3>
+                        <p class="item__info-autor">Prince Harry the Duke of Sussex</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">29,71 €</p>
+                            <p class="cost--was">33,50 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--add-to">Add to basket</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="/images/Digital Minimalism.png">
+                        </div>
+                        <div class="img--label">
+                            <span class="img__new">New</span>
+                            <span class="img__sale">11% off</span>
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">Digital Minimalism</h3>
+                        <p class="item__info-autor">Rick Rubin</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">11,95 €</p>
+                            <p class="cost--was">13,50 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--add-to">Add to basket</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="/images/Meditations.png">
+                        </div>
+                        <div class="img--label">
+                            <span class="img__hit">Hit</span>
+                            <span class="img__sale">7% off</span>
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">Meditations</h3>
+                        <p class="item__info-autor">Marcus Aurelius</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">10,65 €</p>
+                            <p class="cost--was">11,50 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--add-to">Add to basket</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="/images/How to Think Like a Roman Emperor.png">
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">How to Think Like a Roman Emperor</h3>
+                        <p class="item__info-autor">Donald Robertson</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">15,75 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--end-up">End up</button>
+                    </div>
+                </div>
+
+                <!-- 3 line -->
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap"><img src="/images/The Meditations of Marcus.png"></div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">The Meditations of Marcus </h3>
+                        <p class="item__info-autor">Aurelius</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">10,90 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--add-to">Add to basket</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="./images/Lives of the Stoics.png">
+                        </div>
+                        <div class="img--label">
+                            <span class="img__sale">20% off</span>
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">Lives of the Stoics</h3>
+                        <p class="item__info-autor">Ryan Holiday</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">11,51 €</p>
+                            <p class="cost--was">14,50 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--add-to">Add to basket</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="/images/Dopamine Nation.png">
+                        </div>
+                        <div class="img--label">
+                            <span class="img__new">New</span>
+                            <span class="img__sale">30% off</span>
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">Dopamine Nation</h3>
+                        <p class="item__info-autor">Dr Anna Lembke</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">10,11 €</p>
+                            <p class="cost--was">14,50 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--add-to">Add to basket</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item__img">
+                        <div class="img--wrap">
+                            <img src="./images/I Don't Need Therapy.png">
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <h3 class="item__info-name">I Don't Need Therapy</h3>
+                        <p class="item__info-autor">Tony Lodge</p>
+                        <div class="item__info-cost">
+                            <p class="cost--now">21,16 €</p>
+                        </div>
+                    </div>
+                    <div class="item__btn">
+                        <button class="btn--add-to">Add to basket</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="chat"><img src="./images/chat.svg"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023</p>
+        <p>All rights reserved</p>
+    </footer>
+</body>
+</html>
