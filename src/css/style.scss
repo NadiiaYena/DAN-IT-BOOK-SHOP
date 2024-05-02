@@ -218,34 +218,6 @@ header {
     cursor: pointer;
   }
 }
-.img--img--img--img--img--label .img__hit,
-.img--img--img--img--img--label .img__new,
-.img--img--img--img--img--label .img__sale {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 32px;
-  padding: 4px 8px;
-  border-radius: 4px;
-}
-.img__hit {
-  background-color: #4200ff;
-  color: #f8fdfe;
-  font-size: 16px;
-  font-weight: 400;
-}
-.img__new {
-  background-color: #af39e7;
-  color: #f8fdfe;
-  font-size: 16px;
-  font-weight: 400;
-}
-.img__sale {
-  background-color: #ea33c0;
-  color: #f8fdfe;
-  font-size: 16px;
-  font-weight: 400;
-}
 
 footer {
   background-color: #4c394e;
